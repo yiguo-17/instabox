@@ -8,75 +8,77 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 <body>
-    <header>
-        <avatar>
-            <img alt="instagram's avatar" src="/assets/logo.png"
-        </avatar>
-        <info>
-            <basic>
-                <div id="account name"><h2>instagram</h2></div>
-                <div id ="verified"><img src="/assets/check-mark.png" alt="verified"></div>
+    <div id = "webpage">
+    <div id="header">
+        <div id="avatar">
+            <img alt="instagram's avatar" src="/assets/logo.png" class="avatar"
+        </div>
+        <div id ="info">
+            <div id ="basic">
+                <div id="accountName"><h2>instagram</h2></div>
+                <div ><img src="/assets/check-mark.png" alt="verified" id ="verified"></div>
                 
                     <button id="follow">Following</button>
                 <div id = "more"><h2>...</h2></div>
-            </basic>
-            <activity>
+            </div>
+            <div id="activity">
                 <ul class = "post_people">
                     <li><span class = "post">
                         <span id="post">5,863</span>
                         posts
                     </span></li>
-                    <li><a href="http://www.instagram.com/instagram/followers/">
-                        <span class="follower number">
+                    <li><a href="http://www.instagram.com/instagram/followers/" class="followers_number">
+                        <span id="followers_number">
                             303m
                         </span>
                     followers
                     </a></li>
-                    <li><a href="http://www.instagram.com/instagram/following/">
-                        <span class="following number">223</span>
+                    <li><a href="http://www.instagram.com/instagram/following/" class="following_number">
+                        <span id="following_number">223</span>
                         following
                     </a></li>
                 </ul>
-            </activity>
-            <introduction>
+            </div>
+            <div id = "introduction">
                 <h1>Instagram</h1>
                 <br>
-                <span id="slogan">Bringing you closer to the people and things you love. <img src="/assets/heart.png" alt="heart"></span>
-                <a href="https://help.instagram.com/">help.instagram.com</a>
-            </introduction>
-            <mutual>
-                <a href="http://www.instagram.com/instagram/followers/mutualOnly">
+                <div id="slogan">Bringing you closer to the people and things you love. <img src="/assets/heart.png" alt="heart"></div>
+                <a href="https://help.instagram.com/" id="FAQ">help.instagram.com</a>
+            </div>
+            <div id="mutual">
+                <a href="http://www.instagram.com/instagram/followers/mutualOnly" class="template">
                 <span>
-                    Followed by <span id="person1">thedailyshow</span>
+                    Followed by 
+                    <div id= "person1">thedailyshow</div>
                     and 
-                    <span id="person2">kevin</span>
+                    <div id="person2">kevin</div>
                 </span></a>
-            </mutual>
-        </info>
+            </div>
+        </div>
 
-    </header>
-    <gallery>
+    </div>
+    <div class = "gallery">
         <ul class="presentation">
             <li><div class="first">
-                <img src="/assets/talent.png" alt="talent">
+                <img src="/assets/talent.png" alt="talent" id="gallery">
                 <div class="firstCategory">
                     Talent</div>
             </div></li>
             <li><div class="second">
-                <img src="/assets/travel.png" alt="travel">
+                <img src="/assets/travel.png" alt="travel" id="gallery">
                 <div class="secondCategory">
                     Travel
                 </div>
             </div></li>
         <li><div class="third">
-            <img src="/assets/beauty.png" alt="beauty">
+            <img src="/assets/beauty.png" alt="beauty" id="gallery">
             <div class="thirdCategory">
                 Beauty
             </div>
         </div></li>
         <li>
             <div class="fourth">
-                <img src="/assets/fluff.png" alt="fluff">
+                <img src="/assets/fluff.png" alt="fluff" id="gallery">
                 <div class="fourthCategory">
                     Fluff
                 </div>
@@ -84,7 +86,7 @@
         </li>
         <li>
             <div class="fifth">
-                <img src="/assets/asmr.png" alt="asmr">
+                <img src="/assets/asmr.png" alt="asmr" id="gallery">
                 <div class="fifthCategory">
                     Asmr
                 </div>
@@ -92,13 +94,14 @@
         </li>
         <li>
             <div class="sixth">
-                <img src="/assets/sports.png" alt="sports">
+                <img src="/assets/sports.png" alt="sports" id="gallery">
                 <div class="sixthCategory">
                     Sports
                 </div>
             </div>
         </li>
     </ul>
-    </gallery>
+    </div>
+</div>
 </body>
 </html>
